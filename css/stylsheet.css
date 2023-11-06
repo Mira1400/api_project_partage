@@ -1,0 +1,96 @@
+html{
+    height: 100%;
+
+}
+body{
+
+    margin: 0;
+    background-image: url("../img/fond 2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1.5%;
+}
+#chat{
+
+    width: 800px;
+    height: 600px;
+    margin : auto ;
+    background-color: #bd92febb;
+    border: 3px solid #3a354a;
+    overflow-y: scroll;
+    padding: 5px;
+}
+#content-entrée{
+    width: 800px;
+    height: 90px;
+    margin  : 0 auto ;
+    background-color: #bd92febb;
+    border: 3px solid #3a354a;
+}
+#entrée{
+    width: 795px;
+    height: 85px;
+    margin  : 0 auto ;
+    background-color: #3a354a;
+    border: 3px solid #865bd0;
+    position: absolute;
+    text-align: right;
+
+}
+#send{
+    display: inline-block;
+    background-color: #b0e7fc;
+    border: 1px solid #865bd0;
+    color: black;
+    padding: 10px;
+    font-family: Arial, Serif;
+    font-size: 1em;
+    border-radius: 25px;
+    position: relative;
+    margin: calc(85px/4) 10px calc(85px/4) 30px;
+}
+#send:hover
+{
+    background-color: #865bd0;
+    border: 1px solid #b0e7fc;
+    color: #b0e7fc;
+}
+#saisie{
+    display: inline-block;
+    background-color: #ffffff11;
+    border-color: #3a355f;
+    color: ghostwhite;
+    padding: 15px;
+    width: 500px;
+}
+#nom{
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: large;
+    color: #b0e7fc;
+    display: inline-block;
+    width:140px
+}
+
+div p {
+    display: inline-block;
+
+}
+.heure{
+    width: 152px;
+    font-weight: bold;
+    margin-right: 2px;
+    vertical-align: top;
+}
+.expediteur{
+    width: 150px;
+    margin-right: 4px;
+    vertical-align: top;
+
+}
+.message{
+    width: 475px;
+    vertical-align: middle;
+}
+

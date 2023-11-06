@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat System</title>
+    <link href="css/stylsheet.css" rel="stylesheet">
+    <script src="js/javascript.js"></script>
+    <script src="js/Ajax.js"></script>
+    <script src="js/Websocket.js"></script>
+</head>
+<body>
+    <div id="chat">
+
+    </div>
+    <div id="content-entrée">
+        <div id="entrée">
+            <form action="ws://kevin-chapron.fr:8080/ws">
+                <p id="nom"></p>
+                <input id="saisie" type="text" placeholder="Votre message ... ">
+                <button id="send">SEND</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
