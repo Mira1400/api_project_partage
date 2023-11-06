@@ -13,6 +13,8 @@ print(mess.autor)'''
 class ChatRoom:
     def __init__(self):
         self.historique = []
+    def send(self,message):
+        self.historique.append(message)
 
 class serveur :
     def __init__(self):
