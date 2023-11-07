@@ -1,7 +1,8 @@
 from datetime import datetime
 from time import strftime
+from pydantic import BaseModel
 
-class Message():
+class Message(BaseModel):
     def __init__(self,autor,message):
         self.autor = autor
         self.message= message
@@ -10,13 +11,13 @@ class Message():
 '''mess = Message("MAelle","test")
 print(mess.autor)'''
 
-class ChatRoom:
+class ChatRoom(BaseModel):
     def __init__(self):
         self.historique = []
     def send(self,message):
         self.historique.append(message)
 
-class serveur :
+class serveur (BaseModel):
     def __init__(self):
         self.discutions = {}
 
